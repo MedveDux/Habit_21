@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HABIT 21</string>
+    <string name="registration_1_heading">Формирование привычеки</string>
+    <string name="btn_registration_1">Регистрация</string>
+    <string name="text_registration_1">\t\tВ психологии давно установлен факт,что 21 дня достаточно, чтобы привить новые привычки (избавиться от старых) и таким образом улучшить качество жизни</string>
+    <!--    <string name="registration_2_heading">Победи вредные привычки</string>-->
+    <!--    <string name="text_registration_2">\t\tВы можете изменить плохую привычку, заменив ее хорошей привычкой. Это приложение позволяет вам сделать это с помощью 21-дневного испытания</string>-->
+    <!--    <string name="registration_3_heading">Поставь себе цель и иди к ней</string>-->
+    <!--    <string name="text_registration_3">\t\tСоздай в приложении цель (привычку которую хотите изменить) и отмечайте её успешное ежедневное выполнение</string>-->
+    <string name="registration_4_heading">Укажите Ваше имя</string>
+    <string name="registration_5_heading">Укажите Ваш возраст</string>
+    <string name="text_registration_5">Ваш возраст</string>
+    <string name="hint_user_field">Ваше имя</string>
+    <string name="registration_6_heading">Укажите Ваш пол</string>
+    <string name="nowuserinput">Введите текст!</string>
+    <string name="btn_next">Далее</string>
+</resources>

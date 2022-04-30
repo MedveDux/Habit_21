@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/slide_activity"
+    android:background="@color/teal_200">
+
+    <ImageView
+        android:id="@+id/slideimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="83dp"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_300"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32sp"
+        android:layout_marginTop="32sp"
+        android:layout_marginEnd="32sp"
+        android:layout_marginBottom="32sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/btn_registration_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="595dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slideimage"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/registration_1_heading"
+        android:textAlignment="center"
+        android:textColor="@color/teal_800"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/descs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/text_registration_1"
+        android:textColor="@color/teal_700"
+        android:textSize="20sp" />
+
+</RelativeLayout>
