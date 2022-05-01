@@ -65,16 +65,7 @@ public class SlideAdapter extends PagerAdapter {
         title_slide.setText(titles[position]);
         descs_slide.setText(descs[position]);
         if (position == titles.length - 1) {
-//            animationButton(btn);
-            btn.setVisibility(View.VISIBLE);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                setContentView(R.layout.activity_registretion_name4);
-                startActivity(new Intent(context, RegistrationActivity_Name.class));
-//                finish();
-            }
-        });
+            animationButton(btn);
         }
         container.addView(view);
         return view;
@@ -84,8 +75,8 @@ public class SlideAdapter extends PagerAdapter {
         btn.setOnClickListener(new View.OnClickListener(){
                                    @Override
                                    public void onClick(View view) {
-                                       startActivity(new Intent(context, RegistrationActivity_Name.class));
-//                                       finish();
+                                       Intent readMore = new Intent(view.getContext(), RegistrationActivity_Name.class);
+                                       view.getContext().startActivity(readMore);
                                    }
                                }
         );
